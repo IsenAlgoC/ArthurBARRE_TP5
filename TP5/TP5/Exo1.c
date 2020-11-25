@@ -30,7 +30,7 @@ int main() {
 	//free(myTab2);
 
 	ajoutElementDansTableau(myTab2, &tabSize, &nbElts, 17);
-	afficheTab(myTab2, TAB2SIZE, nbElts+1);
+	afficheTab(myTab2, TAB2SIZE, nbElts);
 
 	return (EXIT_SUCCESS);
 }
